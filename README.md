@@ -18,8 +18,6 @@ Open a command prompt on the folder that you are going to save this project and 
 git clone https://github.com/CarlosGomez380/arep-lab4.git
 ```
 
-![](https://github.com/CarlosGomez380/arep-lab1/blob/master/img/clone.PNG)
-
 Once finish this process, open the project on the terminal with 
 
 ```
@@ -31,7 +29,7 @@ And copy:
 ```
 mvn clean install
 ```
-
+![](https://github.com/CarlosGomez380/arep-lab4/blob/master/img/install.PNG)
 
 
 ## Deployment
@@ -42,7 +40,7 @@ To deploy this project open the folder of this project and a command prompt on t
 java -cp target/classes co.edu.escuelaing.sparkd.microSpring.MicroSpringBoot co.edu.escuelaing.sparkd.componentTests.HelloController
 ```
 
-
+![](https://github.com/CarlosGomez380/arep-lab4/blob/master/img/deploy.PNG)
 
 Open your browser and type:
 
@@ -50,8 +48,7 @@ Open your browser and type:
 http://localhost:36000/Apps/pi
 ```
 
-
-
+![](https://github.com/CarlosGomez380/arep-lab4/blob/master/img/pi.PNG)
 
 ## Documentation JavaDoc
 
